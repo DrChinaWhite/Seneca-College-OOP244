@@ -6,6 +6,7 @@
 // Workshop:       2 (LAB)
 // I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
 //==============================================
+
 #include <iostream>
 #include "cstring.h"
 #include "Employee.h"
@@ -17,7 +18,7 @@ namespace sdds {
     Employee* employees;
 
     void sort() {
-        int i, sj;
+        int i, j;
         Employee temp;
         for (i = noOfEmployees - 1; i > 0; i--) {
             for (j = 0; j < i; j++) {
